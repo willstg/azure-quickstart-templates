@@ -92,13 +92,6 @@
         "description": "Optional Run List to Execute"
       }
     },
-    "autoUpdateClient": {
-      "type": "string",
-      "defaultValue": "false",
-      "metadata": {
-        "description": "Optional Flag for opting into auto updates"
-      }
-    },
     "validation_key": {
       "type": "string",
       "metadata": {
@@ -280,7 +273,7 @@
       "properties": {
         "publisher": "Chef.Bootstrap.WindowsAzure",
         "type": "LinuxChefClient",
-        "typeHandlerVersion": "1207.12",
+        "typeHandlerVersion": "1210.12",
         "settings": {
           "bootstrap_options": {
             "chef_node_name": "[concat(parameters('chef_node_name'),copyIndex())]",
